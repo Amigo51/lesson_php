@@ -6,17 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<body>
 <?php
 
-// Todays study is about variables and types
+
+//Todays study is about variables and types
+
 $var=1;
 $var2=6.883;
 
 echo $var;
 ECHO '<br>';
 ECHO $var2;
+
+
+//Case sensitivity in php
+
 ?>
-<body>
-    
+
 </body>
 </html>
