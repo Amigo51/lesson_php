@@ -86,6 +86,41 @@ var_dump($bool);
 
 
 */
+
+#constant data types in php
+/*
+define('PI',3.142);//identifier for defining constants
+echo PI ."<br>";
+echo "This is a circle of radius ",2*PI*5; 
+*/
+?>
+
+<?php
+/*
+define('ABC','this is abc');
+echo ABC;
+*/
+?>
+<?php
+/*
+const XYZ='this is another constant'.'<br>';
+echo XYZ;
+define('G',3.7*10^1);
+echo "The value of gravitational force is: ",G.'<br>';
+var_dump(G);
+*/
+?>
+
+<?php
+//Aithmetic Operators
+$x=20;
+$y=50;
+
+echo($x-$y).'<br>';
+echo($x+$y).'<br>';
+echo($x*$y).'<br>';
+echo($x/$y).'<br>';
+echo($x%$y).'<br>';
 ?>
 
 </body>
