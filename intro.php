@@ -127,6 +127,7 @@ echo($x%$y).'<br>';
 
 <?php
 //Assignment Operators
+/*
 $a = 50;
 echo ($a."<br>");
 $a=50;
@@ -136,7 +137,15 @@ $a = 10;
 $a*=10;
 echo ($a);
 
+*/
+?>
 
+<?php
+//Comparison Operator
+$x = 10;
+$y = 15;
+$a = "10";
+var_dump($x===$a);
 ?>
 
 </body>
