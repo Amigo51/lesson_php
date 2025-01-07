@@ -113,6 +113,7 @@ var_dump(G);
 
 <?php
 //Aithmetic Operators
+/*
 $x=20;
 $y=50;
 
@@ -121,6 +122,21 @@ echo($x+$y).'<br>';
 echo($x*$y).'<br>';
 echo($x/$y).'<br>';
 echo($x%$y).'<br>';
+*/
+?>
+
+<?php
+//Assignment Operators
+$a = 50;
+echo ($a."<br>");
+$a=50;
+$a+=20; 
+echo ($a."<br>");
+$a = 10;
+$a*=10;
+echo ($a);
+
+
 ?>
 
 </body>
