@@ -123,6 +123,32 @@ echo($x*$y).'<br>';
 echo($x/$y).'<br>';
 echo($x%$y).'<br>';
 */
+<<<<<<< HEAD
+=======
+?>
+
+<?php
+//Assignment Operators
+/*
+$a = 50;
+echo ($a."<br>");
+$a=50;
+$a+=20; 
+echo ($a."<br>");
+$a = 10;
+$a*=10;
+echo ($a);
+
+*/
+?>
+
+<?php
+//Comparison Operator
+$x = 10;
+$y = 15;
+$a = "10";
+var_dump($x===$a);
+>>>>>>> origin/main
 ?>
 
 <?php
