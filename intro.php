@@ -123,8 +123,6 @@ echo($x*$y).'<br>';
 echo($x/$y).'<br>';
 echo($x%$y).'<br>';
 */
-<<<<<<< HEAD
-=======
 ?>
 
 <?php
@@ -148,7 +146,6 @@ $x = 10;
 $y = 15;
 $a = "10";
 var_dump($x===$a);
->>>>>>> origin/main
 ?>
 
 <?php
