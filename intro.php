@@ -152,6 +152,7 @@ var_dump($x===$a);
 //Assignment Operator
 $a=50;
 echo $a;
+
 ?>
 </body>
 </html>
