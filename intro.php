@@ -145,7 +145,7 @@ echo ($a);
 $x = 10;
 $y = 15;
 $a = "10";
-var_dump($x===$a);
+var_dump($a);
 ?>
 
 <?php
