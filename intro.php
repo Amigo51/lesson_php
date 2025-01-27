@@ -9,9 +9,9 @@
 
 <body>
 
-<?php //echo "<p> This text is embedded with html and php </p>" ?>
-<?php //echo "<p> This text is is not bold </p>" ?>
-<?php //echo "<h1> This text is another one with an h1 tag </h1>"?>
+<?php /* echo "<p> This text is embedded with html and php </p>" */?>
+<?php /*echo "<p> This text is not bold </p>" */?>
+<?php /*echo "<h1> This text is another one with an h1 tag </h1>"*/?>
 
 
 <?php
@@ -145,12 +145,22 @@ echo ($a);
 $x = 10;
 $y = 15;
 $a = "10";
+<<<<<<< HEAD
 /*== equal to 
 === identity
 != not equal to
 */
 var_dump($y>=$a);
+=======
+var_dump($a);
+>>>>>>> f7e16bec01a3fbd6cfda00f7ba941d11890bf840
 ?>
 
+<?php
+//Assignment Operator
+$a=50;
+echo $a;
+
+?>
 </body>
 </html>
