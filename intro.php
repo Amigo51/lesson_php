@@ -145,7 +145,11 @@ echo ($a);
 $x = 10;
 $y = 15;
 $a = "10";
-var_dump($x===$a);
+/*== equal to 
+=== identity
+!= not equal to
+*/
+var_dump($y>=$a);
 ?>
 
 </body>
