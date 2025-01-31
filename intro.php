@@ -142,25 +142,32 @@ echo ($a);
 
 <?php
 //Comparison Operator
-$x = 10;
-$y = 15;
-$a = "10";
-<<<<<<< HEAD
+$x = 15;
+$y = 10;
+$a = "15";
+
 /*== equal to 
 === identity
 != not equal to
 */
-var_dump($y>=$a);
-=======
-var_dump($a);
->>>>>>> f7e16bec01a3fbd6cfda00f7ba941d11890bf840
+var_dump($x==$y)."<br>";//returns true if x is equal to y
+var_dump($x===$y)."<br>";//returns true if x is equal and identical to y
+var_dump($x!=$y)."<br>"; //returns true if x is not equal to a
+var_dump($x<>$a)."<br>";//returns true if x is not equal to a
+var_dump($x!==$a)."<br>";//returns true if x is not equal to a or not of the same type
+var_dump($x<=$a)."<br>";
+var_dump($x>=$a)."<br>";
+var_dump($x<$a)."<br>";
+var_dump($x<=>$y)."<br>";//retuns (-1) if x is less than y, 0 if x is equal to y & 1 if x is greater than y
 ?>
 
 <?php
 //Assignment Operator
+/*
 $a=50;
 echo $a;
-
+*/
 ?>
+
 </body>
 </html>
