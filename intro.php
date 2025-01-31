@@ -10,11 +10,12 @@
 <body>
 
 <?php /* echo "<p> This text is embedded with html and php </p>" */?>
-<?php /*echo "<p> This text is not bold </p>" */?>
-<?php /*echo "<h1> This text is another one with an h1 tag </h1>"*/?>
+<?php /*echo "<p> This text is not bold </p><br>"*/?>
+<?php /*echo "<h1> This text is bold </h1>"*/?>
 
 
 <?php
+
 /*
 //Todays study is about variables and types
 $var=1;
@@ -166,13 +167,26 @@ var_dump($x<=>$y)."<br>";//retuns (-1) if x is less than y, 0 if x is equal to y
 
 <?php
 //Increment and Decrement Operator in PhP
-//pre increment - first increase and add 1 to it
+//pre increment - first increase and assign
 $x=5;
 $y = ++$x;
 
 echo ($x."<br>");
-echo ($y);
+echo ($y."<br>");
 
+//post increment - first assign and increase
+$a=5;
+$b=$a++;
+
+echo ($a."<br>");
+echo ($b."<br>");
+
+//Pre decrement - reduce before assign
+$c=5;
+$d=--$c;
+
+echo ($c."<br>");
+echo ($d);
 ?>
 
 
