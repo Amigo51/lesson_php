@@ -142,14 +142,16 @@ echo ($a);
 
 <?php
 //Comparison Operator
+/*
 $x = 15;
 $y = 10;
 $a = "15";
-
+*/
 /*== equal to 
 === identity
 != not equal to
 */
+/*
 var_dump($x==$y)."<br>";//returns true if x is equal to y
 var_dump($x===$y)."<br>";//returns true if x is equal and identical to y
 var_dump($x!=$y)."<br>"; //returns true if x is not equal to a
@@ -159,15 +161,21 @@ var_dump($x<=$a)."<br>";
 var_dump($x>=$a)."<br>";
 var_dump($x<$a)."<br>";
 var_dump($x<=>$y)."<br>";//retuns (-1) if x is less than y, 0 if x is equal to y & 1 if x is greater than y
+*/
 ?>
 
 <?php
-//Assignment Operator
-/*
-$a=50;
-echo $a;
-*/
+//Increment and Decrement Operator in PhP
+//pre increment - first increase and add 1 to it
+$x=5;
+$y = ++$x;
+
+echo ($x."<br>");
+echo ($y);
+
 ?>
+
+
 
 </body>
 </html>
