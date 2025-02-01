@@ -182,7 +182,7 @@ echo ($a."<br>");
 echo ($b."<br>");
 
 //Pre decrement - reduce before assign
-$c=5;
+$c=6;
 $d=--$c;
 
 echo ($c."<br>");
